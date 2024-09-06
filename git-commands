@@ -150,6 +150,62 @@ git add .
 git commit -m "sample file"
 git push
 
+=============================
+git branch
+git branch release1
+git branch
+git checkout release1
+git checkout main
+
+git branch -d release1  (to delete branch)
+
+git merge branch-name 9to copy data from one branch to another branch)
+
+touch, echo, cat, vi
+====================
+touch file1
+touch file2 file3
+
+echo
+----
+echo "hello all" > file4
+
+cat
+---
+cat > file5
+....
+....
+ctrl+d
+
+cat file5
+
+cat >> file5
+....
+....
+ctrl+d
+
+VI
+===
+
+vi file6
+--------
+esc i
+.......
+.......
+.......
+esc :w!
+    :q!
+or
+esc :wq!
+
+upload branch into git-hub
+--------------------------
+git push origin release1
+or
+git push git-hub-path release1
+
+git branch -d release1  (local delete)
+git push origin -d release1 (git-hub delete)
 
 
 
