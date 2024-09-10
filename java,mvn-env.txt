@@ -1,0 +1,21 @@
+vi  /etc/profile.d/java.sh
+
+export JAVA_HOME=/opt/java/jdk-21.0.4
+export PATH=${JAVA_HOME}/bin:${PATH}
+
+source /etc/profile.d/java.sh
+
+
+MAVEN
+-----------
+vi  /etc/profile.d/maven.sh
+
+export M2_HOME=/opt/maven/apache-maven-3.9.8
+export PATH=${M2_HOME}/bin:${PATH}
+
+source /etc/profile.d/maven.sh
+
+curl -X POST http://admin:11ae9ca5976964db17c362880d66656976@192.168.75.130:8080/job/Job1/build?token=abc123
+
+docker network create --subnet=10.10.0.0/16 --ip-range=10.10.10.0/24 --gateway=10.10.10.254 brige1
+
