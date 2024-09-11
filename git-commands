@@ -1,56 +1,56 @@
-gfjdjfdk.,gfdgfdit init  (to initialize empty git repo)
-gfdg
-git dconfig --global user.name "Prasad Polarapu"
-git cgdfonfig --global user.email "devopstraining2015@gmail.com"
-g
-gdfgit config --list
-fg
-Tofgfdgfag remove user and email from git configurations:
-fg
-gifgt config --global --unset user.name
-git dfgconfig --global --unset user.email
-fdg
-gitg config --list
-er
-==htr==============================================
-Open yq4ya fresh git bash
-git init54yq54y54r
-touch file1htr
-lsh
-git5eth status
-git addehg file1
-git statuse
-git commit he-m "sample commit"
-git statushet
-git loggy
-git showsuk
-git show cijshygtfrd
-e
-=jhygtfr==================
-touch fierjfmkle2 file3 file4
-lsjhygtreujhytr
-git add file2 fgthnile3 file4
-orytr4thjyt
-git add .rghc
-orhgtr
-git adgbhcngd *
-ortrgc
-git adnhd -A
-git stathchtrus
-git commit -mgh "sample commit"
-git statusjhgyth
-git lognhyt
-git showh
-yt
-gihytt reset head file-name (staging to workspace)
-git rhyeset --soft cid  (local to staging) (n-1)
-t
-=mjhyth===========================================
-Open frnmjhyesh git bash
-git clone htthjmhjytgtps://github.com/polarapu/Batch105.git
-lsbnhgt
-cd Batchnhh015
-lsg
+git init  (to initialize empty git repo)
+
+git config --global user.name "Prasad Polarapu"
+git config --global user.email "devopstraining2015@gmail.com"
+
+git config --list
+
+To remove user and email from git configurations:
+
+git config --global --unset user.name
+git config --global --unset user.email
+
+git config --list
+
+================================================
+Open a fresh git bash
+git init
+touch file1
+ls
+git status
+git add file1
+git status
+git commit -m "sample commit"
+git status
+git log
+git show
+git show cid
+
+===================
+touch file2 file3 file4
+ls
+git add file2 file3 file4
+or
+git add .
+or
+git add *
+or
+git add -A
+git status
+git commit -m "sample commit"
+git status
+git log
+git show
+
+git reset head file-name (staging to workspace)
+git reset --soft cid  (local to staging) (n-1)
+
+============================================
+Open fresh git bash
+git clone https://github.com/polarapu/Batch105.git
+ls
+cd Batch015
+ls
 touch file1
 git status
 git add .
